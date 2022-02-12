@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label fx:id="kart1" layoutX="450.0" layoutY="266.0" />
+      <Label fx:id="kart2" layoutX="636.0" layoutY="266.0" />
+      <ImageView fx:id="kullanici_resim_1" fitHeight="200.0" fitWidth="150.0" layoutX="10.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kullanici_resim_2" fitHeight="200.0" fitWidth="150.0" layoutX="180.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kullanici_resim_3" fitHeight="200.0" fitWidth="150.0" layoutX="350.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kullanici_resim_4" fitHeight="200.0" fitWidth="150.0" layoutX="520.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kullanici_resim_5" fitHeight="200.0" fitWidth="150.0" layoutX="690.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kullanici_resim_6" fitHeight="200.0" fitWidth="150.0" layoutX="860.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kullanici_resim_7" fitHeight="200.0" fitWidth="150.0" layoutX="1030.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kullanici_resim_8" fitHeight="200.0" fitWidth="150.0" layoutX="1200.0" layoutY="510.0" onMouseClicked="#clicked" onMouseEntered="#ResmiBuyut" onMouseExited="#ResmiKucult" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_1" fitHeight="200.0" fitWidth="150.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_2" fitHeight="200.0" fitWidth="150.0" layoutX="180.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_3" fitHeight="200.0" fitWidth="150.0" layoutX="350.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_4" fitHeight="200.0" fitWidth="150.0" layoutX="520.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_5" fitHeight="200.0" fitWidth="150.0" layoutX="690.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_6" fitHeight="200.0" fitWidth="150.0" layoutX="860.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_7" fitHeight="200.0" fitWidth="150.0" layoutX="1030.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bilgisayar_resim_8" fitHeight="200.0" fitWidth="150.0" layoutX="1200.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="kullanici_skor" layoutX="146.0" layoutY="463.0" prefHeight="23.0" prefWidth="109.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label fx:id="bilgisayar_skor" layoutX="174.0" layoutY="229.0" prefHeight="23.0" prefWidth="176.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label fx:id="pozisyon_label" layoutX="120.0" layoutY="350.0" prefHeight="36.0" prefWidth="305.0">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
