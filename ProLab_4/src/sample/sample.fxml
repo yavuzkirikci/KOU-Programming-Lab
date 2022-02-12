@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" stylesheets="@styles/style1.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="298.0" fitWidth="257.0" layoutX="41.0" layoutY="108.0" onMouseClicked="#gozlukluSecildi" pickOnBounds="true">
+         <image>
+            <Image url="@gozluklu_sirin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="298.0" fitWidth="269.0" layoutX="320.0" layoutY="108.0" onMouseClicked="#tembelSecildi" pickOnBounds="true">
+         <image>
+            <Image url="@tembel_sirin.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="65.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KARAKTERİNİZİ SEÇİN" textAlignment="CENTER" wrappingWidth="494.13671875">
+         <font>
+            <Font name="System Bold Italic" size="45.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" prefHeight="660.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OyunController">
+   <children>
+      <Text layoutX="813.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PUAN :" wrappingWidth="115.13671875">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="puanText" layoutX="928.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="115.13671875">
+         <font>
+            <Font name="Segoe Print Bold" size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="134.0" fitWidth="129.0" layoutX="813.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gold.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="altinSure" layoutX="951.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="129.0">
+         <font>
+            <Font name="Segoe Print" size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="108.0" fitWidth="114.0" layoutX="821.0" layoutY="367.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+         <image>
+            <Image url="@sirine.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="mantarSure" layoutX="942.0" layoutY="570.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="129.0">
+         <font>
+            <Font name="Segoe Print Bold" size="28.0" />
+         </font>
+      </Text>
+      <Canvas fx:id="canvas" height="660.0" width="780.0" />
+      <ImageView fx:id="karakterImage" fitHeight="60.0" fitWidth="60.0" layoutX="141.0" layoutY="169.0" pickOnBounds="true" />
+      <ImageView fitHeight="134.0" fitWidth="129.0" layoutX="828.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mantar.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="21.0" layoutY="-12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A" wrappingWidth="35.13671875" x="180.0" y="60.0">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="-12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B" wrappingWidth="35.13671875" x="600.0" y="60.0">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="-11.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C" wrappingWidth="35.13671875" y="360.0">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="-11.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" wrappingWidth="35.13671875" x="180.0" y="660.0">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
