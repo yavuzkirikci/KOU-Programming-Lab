@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" prefHeight="470.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cs">
+   <children>
+      <ImageView fitHeight="285.0" fitWidth="247.0" layoutX="19.0" layoutY="112.0" onMouseClicked="#sanatciClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sarkici_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="241.0" layoutX="240.0" layoutY="156.0" onMouseClicked="#sarkiClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sarki_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="228.0" fitWidth="197.0" layoutX="498.0" layoutY="127.0" onMouseClicked="#albumClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/album_logo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="125.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DÜZENLEMEK İSTEDİĞİNİZ KATEGORİYİ SEÇİNİZ" textAlignment="CENTER" wrappingWidth="473.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="66.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SANATÇI" textAlignment="CENTER" wrappingWidth="153.13671875">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="269.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ŞARKI" textAlignment="CENTER" wrappingWidth="153.13671875">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="521.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALBÜM" textAlignment="CENTER" wrappingWidth="153.13671875">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="598.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#cikisYap" prefHeight="47.0" prefWidth="112.0" text="ÇIKIŞ YAP">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
