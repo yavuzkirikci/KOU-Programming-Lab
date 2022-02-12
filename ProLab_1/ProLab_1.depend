@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1604577851 source:c:\users\muhammed\documents\projects\codeblocks\prolab_1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<graphics.h>
+	<ctype.h>
+	<math.h>
+
